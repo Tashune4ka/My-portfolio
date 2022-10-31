@@ -20,9 +20,6 @@ FROM uni.fees;
 SELECT FullTimeFee - ScholarshipDiscount AS 'Fee after applying the discount'
 FROM uni.fees;
 
-
-
-
 -- Extension:
 -- 6
 SELECT CourseID as 'The cheapest course'
