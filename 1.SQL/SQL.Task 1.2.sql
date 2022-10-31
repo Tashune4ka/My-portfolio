@@ -1,14 +1,9 @@
+-- 1
 SELECT * FROM uni.student
 WHERE CourseID <> 1;
-
 -- or
 SELECT * FROM uni.student
-WHERE CourseID = != 1;
-
--- Questions:
--- 1. Can we use both variants? <> or != 
--- 2. Why CourseID = 'NULL' are not included to the result?? (e.g. StudentID 404, 414, 422) How to include them?
-
+WHERE CourseID != 1;
 
 -- 2
 SELECT Forenames, Surname, DateOfBirth FROM uni.student
